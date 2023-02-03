@@ -1,14 +1,20 @@
 <template>
+  <ImageShowcase/>
   <h1>Vite + Vue ( + vue-router )</h1>
-  <p>simple temlate for vite.js with use of the vue-router</p>
+  <p>simple template for vite.js with use of the vue-router</p>
 </template>
 
 <script>
+import ImageShowcase from "@/components/ImageShowcase.vue";
+
 export default {
-  name: "HomeView"
+  name: "HomeView",
+  components: {ImageShowcase}
 }
 </script>
 
 <style scoped>
+
+
 
 </style>
